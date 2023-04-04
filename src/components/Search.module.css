@@ -1,0 +1,57 @@
+.search-container {
+    width: 500px;
+}
+
+.search-input-container {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.search-input {
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-icon {
+    height: 20px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-dropdown {
+    border: solid lightgrey 1px;
+    padding: 0 10px;
+    width: 97%;
+    margin-left: 17px;
+}
+
+.search-dropdown-item {
+    border-bottom: solid lightgrey 1px;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.search-dropdown-image {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.search-dropdown-title {
+    color: black;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.search-dropdown-subtitle {
+    color: grey;
+    font-size: 12px;
+}
